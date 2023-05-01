@@ -1,0 +1,29 @@
+.print-type {
+    margin-top: 24px;
+}
+
+.print-type .swiper-button-prev {
+    display: none;
+}
+
+.print-type .swiper-button-next {
+    background-image: url('../../../assets/images/right-arrow-vio.svg');
+    right: 0;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .print-type__img {
+        width: 152px;
+        height: 68px;
+    }
+
+    .print-type {
+        margin-top: 8px;
+    }
+
+    .print-type .swiper-button-next {
+        display: none;
+    }
+}

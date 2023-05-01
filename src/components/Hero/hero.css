@@ -1,0 +1,25 @@
+.hero-section {
+    padding-top: 120px;
+}
+
+.hero-section__wrapper {
+    display: flex;
+}
+
+.res-print-wrapper {
+    display: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .hero-section__wrapper {
+        flex-direction: column;
+    }
+
+    .res-print-wrapper {
+        display: block;
+    }
+
+    .hero-section__print-wrapper {
+        display: none;
+    }
+}

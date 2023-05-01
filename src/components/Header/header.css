@@ -1,0 +1,154 @@
+.header {
+    padding: 26px 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-item + .header__nav-item {
+    margin-left: 32px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+    transition: all 300ms linear;
+}
+
+.header__nav-link:hover {
+    color: #5900E6;
+}
+
+.header__telegram-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__telegram-desc {
+    margin: 0;
+    margin-left: 4px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    border-bottom: 1px dashed #828282;
+    transition: all 300ms linear;
+}
+
+.header__telegram-desc:hover {
+    border-bottom: 1px solid #828282;
+
+}
+
+.header__icon-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__icon-item + .header__icon-item {
+    margin-left: 48px;
+}
+
+.header__icon-cart-num {
+    position: relative;
+    top: -15px;
+    left: 22px;
+    padding: 1px 7px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #5900E6;
+    border-radius: 500px;
+}
+
+.header__res-menu {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    .header {
+        padding: 22px 0;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 40px rgba(38, 41, 43, 0.07);
+    }
+
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__res-menu {
+        display: block;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+    }
+
+    .bi-list {
+        font-size: 2rem;
+        color: #5900E6;
+    }
+
+    .header__logo-img {
+        width: 105px;
+        height: 28px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__telegram-link {
+        display: none;
+    }
+
+    .header__icon-item + .header__icon-item {
+        margin-left: 0;
+    }
+
+    .header__icon-item {
+        display: none;
+    }
+
+    .user-res {
+        display: block;
+        margin: 0;
+    }
+}

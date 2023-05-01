@@ -1,0 +1,141 @@
+.big-sale__title {
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #242424;
+}
+
+.big-sale__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.big-sale__link {
+    text-decoration: none;
+}
+
+.big-sale__main-wrapper {
+    width: 312px;
+    margin-top: 16px;
+}
+
+.big-sale__price-wrapper {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.big-sale__new-price {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #242424;
+}
+
+.big-sale__old-price {
+    margin: 0;
+    margin-left: 16px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: #828282;
+}
+
+.big-sale__discount {
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #5900E6;
+    clip-path: polygon(20% 0, 100% 0, 100% 50%, 100% 100%, 20% 100%, 0% 50%);
+}
+
+.big-sale__desc {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #242424;
+}
+
+.big-sale .swiper-button-prev {
+    left: 0px !important;
+}
+
+.big-sale .swiper-button-next {
+    right: 0 !important;
+}
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .big-sale__img {
+        width: 152px;
+        height: 152px;
+    }
+
+    .sale-wrapper {
+        flex-direction: column;
+    }
+
+    .big-sale__main-wrapper {
+        width: 152px;
+        margin-top: 20px;
+    }
+
+    .big-sale__new-price {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .big-sale__old-price {
+        margin: 0;
+        padding: 0;
+        margin-top: 2px;
+        margin-left: 0;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .big-sale__discount {
+        position: relative;
+        bottom: 70px;
+        right: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .big-sale__desc {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .big-sale .swiper-button-prev {
+        display: none;
+    }
+
+    .big-sale .swiper-button-next {
+        display: none;
+    }
+}

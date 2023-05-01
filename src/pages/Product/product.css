@@ -1,0 +1,336 @@
+.product-section {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.home-nav-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.product-section__span {
+    margin-left: 10px;
+    display: block;
+    width: 15px;
+    height: 1.5px;
+    background-color: #828282;
+}
+
+.product-section__main-wrapper {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-section__img-wrapper {
+    display: flex;
+}
+
+.mySwiper2 {
+    margin-left: 12px;
+}
+
+.product-section__title {
+    margin: 0;
+    margin-bottom: 12px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #242424;
+}
+
+.product-section__model-wrapper {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.product-section__model {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+
+.product-section__comments {
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+
+.product-section__new-price {
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #5900E6;
+}
+
+.product-section__old-price {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #828282;
+}
+
+.product-section__size-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.product-section__size {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+
+.product-section__size-link {
+    margin-left: 296px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+
+.product-section__size-list {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.product-section__color {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+
+.product-section__color-list {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-section__size-item {
+    padding: 8px 24px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.product-section__color-item + .product-section__color-item {
+    margin-left: 10px;
+}
+
+.product-section__content {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+
+.product-section__content-name {
+    color: #242424;
+}
+
+.product-section__btn-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.product-section__save-btn {
+    width: 532px;
+    padding: 16px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #5900E6;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: all 300ms linear;
+}
+
+.product-section__save-btn:hover {
+    background-color: #FFFFFF;
+    color: #5900E6;
+    border: 1px solid #5900E6;
+}
+
+.product-section__like-btn {
+    margin-left: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.product-section__btn-wrapper .bi-heart {
+    color: #5900E6;
+    font-size: 2rem;
+}
+
+/* .product-section__btn-wrapper .bi-heart:hover {
+    background-color: #5900E6;
+} */
+
+.product-section__description-wrapper {
+    margin-bottom: 120px;
+    width: 940px;
+}
+
+.product-section__heading {
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #242424;
+}
+
+.product-section__desc {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.product-section__comments-wrapper {
+    margin-bottom: 120px;
+}
+
+.product-section__comments-title {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #242424;
+}
+
+.product-section__comments-list {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.product-section__comments-item {
+    padding: 32px;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.comments-card {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comments-card__username {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.comments-card__date {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BDBDBD;
+}
+
+.comments-card__rate {
+    margin: 0;
+    padding: 0;
+}
+
+.comments-card__desc {
+    width: 396px;
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #242424;
+}
+
+.comments-card__img + .comments-card__img {
+    margin-left: 12px;
+}
+
+.comments-card__leave-btn {
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5900E6;
+    background-color: transparent;
+    border: 1.5px solid #5900E6;
+    border-radius: 4px;
+    transition: all 300ms linear;
+}
+
+.comments-card__leave-btn:hover {
+    background-color: #5900E6;
+    color: #FFFFFF;
+}
+
+.comments-card__all-btn {
+    text-decoration: none;
+    margin-left: 56px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5900E6;
+    transition: all 300ms linear;
+}
+
+.comments-card__all-btn:hover {
+    opacity: 0.4;
+}

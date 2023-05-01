@@ -1,0 +1,15 @@
+.catalogue-list {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.catalogue-list__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.catalogue-list__wrapper {
+    display: flex;
+    flex-direction: column;
+}

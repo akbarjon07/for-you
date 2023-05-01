@@ -1,0 +1,47 @@
+.sticky-footer {
+    display: none;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 480px)  {
+    .sticky-footer {
+        display: block;
+        padding: 12px 0;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    .sticky-footer__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sticky-footer__link {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sticky-footer__icon {
+        margin-bottom: 4px;
+    }
+
+    .sticky-footer__desc {
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #242424;
+    }
+}

@@ -1,0 +1,162 @@
+.footer {
+    padding: 120px 0;
+    background-color: #232323;
+}
+
+.footer__top {
+    margin-bottom: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__logo-img {
+    margin-bottom: 24px;
+}
+
+.footer__logo-desc {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    width: 460px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ECEDEE;
+}
+
+.footer__media-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer__media-item + .footer__media-item {
+    margin-left: 10px;
+}
+
+.footer__top-right {
+    display: flex;
+}
+
+.footer__nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.custom-list {
+    margin-left: 100px;
+}
+
+.footer__nav-item + .footer__nav-item {
+    margin-top: 16px;
+}
+
+.footer__nav-desc {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.footer__nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: all 300ms linear;
+}
+
+.footer__nav-link:hover {
+    opacity: 0.8;
+}
+
+.footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__year-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.same-desc {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BDBDBD;
+}
+
+.footer__map {
+    margin-left: 40px;
+}
+
+.footer__company {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer__company-name {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer__company-logo {
+    margin-left: 5px;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .footer {
+        padding: 80px 0;
+    }
+
+    .footer__top {
+        margin-bottom: 80px;
+        flex-direction: column;
+        align-items: normal;
+        justify-content: flex-start;
+    }
+
+    .footer__top-left {
+        margin-bottom: 80px;
+    }
+
+    .footer__logo-desc {
+        width: 320px;
+    }
+
+    .footer__nav-list {
+        width: 130px;
+    }
+
+    .custom-list {
+        margin-left: 16px;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .footer__year-wrapper {
+        margin-bottom: 24px;
+    }
+
+}

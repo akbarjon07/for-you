@@ -1,0 +1,143 @@
+.about-section {
+    padding-top: 120px;
+}
+
+.about-section__title {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #242424;
+}
+
+.about-section__img {
+    margin-bottom: 80px;
+}
+
+.about-section__description-wrapper {
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section__description-title {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #242424;
+}
+
+.about-section__description-desc {
+    margin: 0;
+    padding: 0;
+    width: 940px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.advantage-title {
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #242424;
+}
+
+.advantage-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 160px;
+    row-gap: 80px;
+}
+
+.advantage-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage-img {
+    margin-bottom: 18px;
+}
+
+.advantage-heading {
+    margin: 0;
+    margin-bottom: 18px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.advantage-desc {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #828282;
+}
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .about-section__title {
+        margin-bottom: 32px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .about-section__img {
+        display: block;
+        margin: 0 auto;
+        width: 340px;
+        height: 240px;
+        margin-bottom: 60px;
+    }
+
+    .about-section__description-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-section__description-desc {
+        width: 320px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .advantage-title {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .advantage-list {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .advantage-item + .advantage-item {
+        margin-top: 80px;
+    }
+}

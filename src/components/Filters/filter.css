@@ -1,0 +1,147 @@
+.filters__title {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #242424;
+}
+
+.filters__nav-list {
+    margin: 0;
+    margin-bottom: 48px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.filters__nav-item +.filters__nav-item {
+    margin-top: 16px;
+}
+
+.filters__nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+    transition: all 300ms linear;
+}
+
+.filters__nav-link:hover {
+    color: #5900E6;
+}
+
+.filters__price-wrapper {
+    margin-bottom: 40px;
+}
+
+.filters__pricer {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.filters__range-input {
+    margin-bottom: 16px;
+    width: 284px;
+}
+
+input[type=range] {
+    background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 4px;
+    width: 100%;
+    background: rgba(89, 0, 230, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    position: relative;
+    bottom: 6px;
+    border: 1px solid transparent;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #5900E6;
+    background: #5900E6 !important;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px rgba(0, 0, 0, 0.15);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+.price-input {
+    width: 144px;
+    padding: 16px 18px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #242424;
+}
+
+.price-input:focus {
+    outline: 1px solid #5900E6;
+}
+
+.filters__size {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+    background-color: #5900E6
+}
+
+.filters__input-desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .filters__wrapper {
+        display: none;
+    }
+
+}

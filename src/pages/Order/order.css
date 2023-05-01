@@ -1,0 +1,435 @@
+.order-section {
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+.order-section__nav-span {
+    margin-left: 10px;
+    display: block;
+    width: 15px;
+    height: 1.5px;
+    background-color: #242424;
+}
+
+.order-section__nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.order {
+    color: #242424;
+}
+
+.order-section__title {
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #242424;
+}
+
+.order-section__order-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.order-section__order-item {
+    display: flex;
+}
+
+.order-section__order-item + .order-section__order-item {
+    margin-top: 40px;
+}
+
+.order-section__order-list-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-section__order-name-info {
+    margin-left: 48px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.order-section__order-heading {
+    margin: 0;
+    padding: 0;
+    width: 312px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.order-section__order-quantity {
+    margin: 0;
+    margin-left: 80px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.order-section__order-price-wrapper {
+    margin-left: 80px;
+}
+
+.order-section__order-new-price {
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #5900E6;
+}
+
+.order-section__order-old-price {
+    margin: 0;
+    padding: 0;
+    text-align: end;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration-line: line-through;
+    color: #828282;
+}
+
+.order-section__order-desc {
+    margin: 0;
+    margin-left: 48px;
+    margin-bottom: 26px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BDBDBD;
+}
+
+.order-section__order-size {
+    margin-left: 48px;
+    padding: 8px 24px;
+    width: 134px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #828282;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.order-section__second-title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #242424;
+}
+
+.order-section__form {
+    margin-bottom: 120px;
+}
+
+.order-input {
+    padding: 16px 18px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #828282;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    outline: none;
+}
+
+.order-section__name-input {
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.order-section__input-wrapper {
+    margin-bottom: 20px;
+}
+
+.order-section__phone-input {
+    width: 340px;
+}
+
+.order-section__mail-input {
+    margin-left: 20px;
+    width: 340px;
+}
+
+.order-section__message-input {
+    width: 700px;
+}
+
+.order-section__card-wrapper {
+    width: 340px;
+}
+
+.order-section__card-btn {
+    width: 340px;
+    margin-bottom: 16px;
+    padding: 12px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #5900E6;
+    border: none;
+    border-radius: 4px;
+    transition: all 300ms linear;
+}
+
+.order-section__card-btn:hover {
+    background-color: #FFFFFF;
+    color: #5900E6;
+    border: 1px solid #5900E6;
+}
+
+.order-section__card-price-wrapper {
+    padding: 32px 24px;
+    background: #F8F8F8;
+    border: 1px solid #ECEDEE;
+    border-radius: 8px;
+}
+
+.order-section__card-all-price {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.order-all-price {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242424;
+}
+
+.order-section__card-common-price {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.order-common-price {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.order-section__card-sale-price {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.order-sale-price {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #14C044;
+}
+
+.order-section__card-promokod-input {
+    padding: 16px 0;
+    padding-left: 18px;
+    width: 292px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #828282;
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+.order-section__res-order-desc {
+    display: none;
+}
+
+.order-section__res-order-size {
+    display: none;
+}
+
+.res-form {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+    .order-section {
+        padding-bottom: 120px;
+    }
+
+    .order-section__nav-wrapper {
+        display: none !important;
+    }
+
+    .order-section__title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .order-section__order-list-wrapper {
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .order-section__order-item {
+        padding-bottom: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #828282;
+    }
+
+    .order-section__order-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .order-section__order-name-info {
+        margin-left: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .order-section__order-heading {
+        width: 192px;
+        text-align: end;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .order-section__order-quantity {
+        margin-left: 0;
+        margin-top: 30px;
+        text-align: end;
+    }
+
+    .order-section__order-price-wrapper {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .order-section__order-new-price {
+        margin: 0;
+        margin-bottom: 8px;
+        padding: 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: #5900E6;
+    }
+
+    .order-section__order-old-price {
+        margin: 0;
+        padding: 0;
+        text-align: end;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        text-decoration-line: line-through;
+        color: #828282;
+    }
+
+    .order-section__res-order-desc {
+        display: block;
+        margin-top: 8px;
+        text-align: end;
+    }
+
+    .order-section__res-order-size {
+        display: block;
+        margin-top: 16px;
+    }
+
+    .res-order-desc {
+        display: none;
+    }
+
+    .res-order-size {
+        display: none;
+    }
+
+    .order-section__card-wrapper {
+        margin-top: 80px;
+        margin-bottom: 120px;
+        width: 335px;
+    }
+
+    .order-section__card-btn {
+        width: 335px;
+    }
+
+    .order-section__second-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .res-form {
+        display: block;
+    }
+
+    .res-form-none {
+        display: none;
+    }
+
+    .order-section__form {
+        margin-bottom: 0;
+    }
+
+    .order-section__name-input {
+        width: 335px;
+        margin-bottom: 20px;
+    }
+
+    .order-section__input-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .order-section__phone-input {
+        width: 335px;
+        margin-bottom: 20px;
+    }
+
+    .order-section__mail-input {
+        margin-left: 0;
+        width: 335px;
+    }
+
+    .order-section__message-input {
+        width: 335px;
+    }
+
+}
